@@ -1,0 +1,23 @@
+.counter {
+  min-width: 275px;
+  max-width: 550px;
+  min-height: 200px;
+  height: 70%;
+  width: 70vw;
+  font-family: 'K2D', sans-serif;
+  font-size: 9rem;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #000000;
+  color: #000000;
+  margin-bottom: 25px;
+  background-color: #0096FF;
+}
+
+@media (min-width: 600px) {
+  .counter {
+    font-size: 11.2rem;
+  }
+}
